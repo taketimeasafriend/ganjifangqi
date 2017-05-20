@@ -3,14 +3,7 @@ a, div {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-body {
-    padding: 0px;
-    margin: 0px;
-    font-size: 14px;
-    background-color: #79570d;
-}
-
-p, h1, h2, h3, dl, dt, dd, li, h4, h5, h6, form, fieldset, ul {
+p, form, fieldset {
     font-weight: normal;
     font-size: 12px;
     margin: 0px;
@@ -51,7 +44,7 @@ form {
 .gj-game-dk {
     position: relative;
     width: 296px;
-    height: 568px;
+    height: 296px;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -105,7 +98,7 @@ form {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    border: #cccccc 0px solid;
+    border-radius: 5px;
     margin-right: 5px;
     margin-top: 5px;
 }
@@ -139,6 +132,7 @@ form {
     color: #e2e2e2;
     cursor: pointer;
     background-color: #01800a;
+    border-radius: 5px;
     line-height: 180%;
     filter: alpha(opacity=70);
     -moz-opacity: 0.7;
@@ -234,12 +228,9 @@ form {
     line-height: 30px;
     margin-left: 12px;
     cursor: pointer;
-    border-top: #B39147 1px solid;
-    border-left: #B39147 1px solid;
-    border-bottom: #472500 1px solid;
-    border-right: #472500 1px solid;
-    background-color: #79570d;
-    color: #cccccc;
+    border-radius: 5px;
+    background-color: #3a3;
+    color: #fff;
 }
 
 .gj-game-k32-2 {
@@ -253,7 +244,7 @@ form {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    border: #cccccc 0px solid;
+    border-radius: 5px;
     margin-right: 5px;
     margin-top: 5px;
 }
